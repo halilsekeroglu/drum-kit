@@ -54,11 +54,16 @@ function makeSound(parameter) {
     }
 }
 
-function makeAnimation(currentKey) {
-   document.querySelector("."+currrentKey).classList.add ("shadow"); 
-setTimeout(function() {
-    document.querySelector("."+currrentKey).remove("shadow");},100 );
-}
-       
- 
 
+function makeAnimation(currentKey) {
+
+    var activeButton = document.querySelector("." + currentKey);
+  
+    activeButton.classList.add("pressed");
+  
+    setTimeout(function() {
+      activeButton.classList.remove("pressed");
+    }, 100);
+  
+  }
+  
