@@ -13,7 +13,7 @@
 
 
 you can visit website on [here](https://drum-kit-play.herokuapp.com/
-"BLOG SITE") 
+"drum-kit-play") 
 
 ```javascript 
 for (var i = 0; i < document.querySelectorAll('.drum').length; i++) {
