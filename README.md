@@ -12,7 +12,7 @@
 
 
 
-you can visit website on [here](https://enigmatic-castle-49553.herokuapp.com/blogs
+you can visit website on [here](https://drum-kit-play.herokuapp.com/
 "BLOG SITE") 
 
 ```javascript 
